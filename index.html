@@ -1,0 +1,70 @@
+ 
+<html>
+  <head>
+    <title>Emoção em</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <center>
+
+        <h3 class="rosa">emoção em divertidamente 🎉🎉🎊🎉🎊</h3>
+
+        <br>
+
+        <span style='font-size:35px;'>&#128512;</span>
+        <span style='font-size:35px;'>&#128532;</span>
+        <span style='font-size:35px;'>&#128545;</span>
+        <span style='font-size:35px;'>&#128580;</span>
+
+        <br><br>
+
+        <p style="font-size: 22px;">Tire sua selfie para tirar o emoji
+          <br>
+          <b style="color:rgb(240, 255, 182)"> você está alegre?</b>
+          <br>
+          <b style="color:lavender"> você está triste?</b>
+          <br>
+          <b style="color:rgb(255, 99, 99)"> você está com raiva?</b>
+          <br>
+          <b style="color: darkseagreen;"> você está com nojo?</b>
+          </p>
+
+          <div class="col-md-4 col-sm-12 col-xs-12">
+            <label>Visualização Camêra: </label>
+            <div id="camera"></div>
+            <br><br>
+            <button class="coruja_caolho" onclick="tirarfotita()">Pegue su fotita</button>
+          </div>
+
+          <div class="col-md-4 col-sm-12 col-xs-12">
+            <label>jovem Mistico1: </label>
+            <p class="emotionName" id="resultEmotionName"></p>
+            <p class="emoji" id="updateEmoji"></p>
+            <label>Jovem Mistico2: </label>
+            <p class="emotionName" id="resultEmotionName2"></p>
+            <p class="emoji" id="updateEmoji2"></p>
+          </div>
+
+          <div class="col-md-4 col-sm-12 col-xs-12">
+            <label>Foto: </label>
+            <div id="result"></div>
+            <br><br>
+            <button class="JOVEMMISTICO" onclick="verify()">Verifique sua emoção</button>
+          </div>
+
+      </center>
+
+    </div>
+    <script src="main.js"></script>
+  </body>
+ 
